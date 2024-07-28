@@ -2,7 +2,7 @@ import React from 'react'
 const Yandex = () => {
   return (
     <svg
-      fill='#000000'
+      fill='#5b5b5b'
       width='32px'
       height='32px'
       viewBox='-5.5 0 24 24'
