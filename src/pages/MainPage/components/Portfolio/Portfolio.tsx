@@ -13,13 +13,15 @@ export const Portfolio = () => {
       <>
         <h2 className='m-0'>Портфолио</h2>
         <Image src={AIS} fluid />
-        <p className='text-decoration-underline'>
+        <p className='text-decoration-underline text-center'>
           АИС - платформа для автоматизации процесса подбора персонала
         </p>
         <Image src={VTB} fluid />
-        <p className='text-decoration-underline'>ЛК ВТБ ЭДО</p>
+        <p className='text-decoration-underline text-center'>ЛК ВТБ ЭДО</p>
         <Image src={Cloud} fluid />
-        <p className='text-decoration-underline'>Облачное хранилище</p>
+        <p className='text-decoration-underline text-center'>
+          Облачное хранилище
+        </p>
       </>
     </Block>
   )

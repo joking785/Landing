@@ -12,7 +12,7 @@ export const Skills = () => {
         <h2 className='m-0'>Навыки</h2>
         <p>Использую следующий стек технологии</p>
         <Container className='py-4 px-0 m-0'>
-          <Row className='d-flex flex-row'>
+          <Row className='d-flex flex-row' style={{ gap: '108px' }}>
             <Col className='d-flex align-middle justify-content-start gap-3 m-0'>
               <Icon.ReactIcon />
               <h3 className='m-0'>React</h3>
@@ -26,8 +26,8 @@ export const Skills = () => {
               <h3 className='m-0'>Webpack</h3>
             </Col>
             <Col className='d-flex align-items-center justify-content-center gap-3'>
-              <Icon.DockerIcon />
-              <h3 className='m-0'>Docker</h3>
+              <Icon.ReduxIcon />
+              <h3 className='m-0'>Redux</h3>
             </Col>
           </Row>
         </Container>

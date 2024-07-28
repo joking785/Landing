@@ -28,8 +28,12 @@ export const Header = () => {
       </Navbar>
       <Container className='py-4 px-0 h-50'>
         <Row>
-          <Col className='d-flex align-items-center h-80 '>
-            <h1 className='m-0 '>Кирилл Милохин</h1>
+          <Col className='d-flex align-items-center '>
+            <h1 className='m-0'>
+              Кирилл
+              <br />
+              Милохин
+            </h1>
           </Col>
           <Col className='d-flex align-items-center justify-content-center'>
             <p className='m-0'>Frontend разработчик</p>

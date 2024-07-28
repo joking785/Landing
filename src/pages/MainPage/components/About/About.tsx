@@ -1,34 +1,34 @@
-import React from 'react';
+import React from 'react'
 
-import { Block } from '../Block';
+import { Block } from '../Block'
 
 export const About = () => {
   return (
     <Block isBackground={true}>
       <>
-        <h2 className="m-0">Обо мне</h2>
-        <p className="text-center w-100 m-0">
+        <h2 className='m-0'>Обо мне</h2>
+        <p className='text-center w-50 m-0'>
           Всю жизнь я был с компьютером на «ты», познакомился с
           программированием в школьные годы, когда и решил связать себя с этим
           занятием. Активно начал заниматься программированием лишь в
           университете.
         </p>
-        <p className="text-center w-100 m-0">
+        <p className='text-center w-50 m-0'>
           Познакомившись с языками C++, Python, начал изучать различные области
           программирования, чтобы выявить чем именно я бы хотел заниматься в
           дальнейшем. В итоге познакомившись с JavaScript мой путь пришел к
           Frontend-разработке, которая вызывала у меня наибольшую
           заинтересованность.
         </p>
-        <p className="text-center w-100 m-0">
+        <p className='text-center w-50 m-0'>
           Для получения большего опыта разработки и работы в команде решил
           попасть в компании, где используется выбранный язык программирования.
         </p>
-        <p className="text-center w-100 m-0">
+        <p className='text-center w-50 m-0'>
           В свободное время люблю играть в компьютерные игры, посещать
           тренажерный зал, ездить на велосипеде. Увлекаюсь авиацией.
         </p>
       </>
     </Block>
-  );
-};
+  )
+}

@@ -2,10 +2,10 @@ import React from 'react'
 import { Suspense, lazy, FC, PropsWithChildren } from 'react'
 import { LoaderDots } from '../LoaderDots'
 
-const ReactIcon = lazy(() => import('./Components/React'))
+const ReactIcon = lazy(() => import('./Components/ReactIcon'))
 const TSIcon = lazy(() => import('./Components/TSIcon'))
 const WebpackIcon = lazy(() => import('./Components/Webpack'))
-const DockerIcon = lazy(() => import('./Components/Docker'))
+const ReduxIcon = lazy(() => import('./Components/ReduxIcon'))
 const Telegram = lazy(() => import('./Components/Telegram'))
 const Yandex = lazy(() => import('./Components/Yandex'))
 
@@ -29,9 +29,9 @@ const Icon = {
       <WebpackIcon />
     </IconWrapper>
   ),
-  DockerIcon: () => (
+  ReduxIcon: () => (
     <IconWrapper>
-      <DockerIcon />
+      <ReduxIcon />
     </IconWrapper>
   ),
   Telegram: () => (

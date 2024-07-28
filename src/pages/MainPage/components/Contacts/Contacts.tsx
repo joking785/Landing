@@ -27,13 +27,23 @@ export const Contacts = () => {
         <form onSubmit={handleSubmit(onSubmit)}>
           <Container className='py-4 px-0 h-50'>
             <Row className='d-flex flex-row align-content-center w-50'>
-              <Col className='d-flex p-0 gap-3 flex-row align-items-center'>
+              <Col className='d-flex p-0 gap-3 align-items-center'>
                 <Icon.Telegram />
-                <p className='m-0'>@yousno</p>
+                <a
+                  className='m-0 text-decoration-none text-reset'
+                  href='https://t.me/yousno'
+                >
+                  @yousno
+                </a>
               </Col>
-              <Col className='d-flex p-0 gap-3 flex-row align-items-center'>
+              <Col className='d-flex p-0 gap-3 align-items-center'>
                 <Icon.Yandex />
-                <p className='m-0'>jemholod@yandex.ru</p>
+                <a
+                  href='mailto:jemholod@yandex.ru'
+                  className='m-0 text-decoration-none text-reset'
+                >
+                  jemholod@yandex.ru
+                </a>
               </Col>
             </Row>
           </Container>
