@@ -13,7 +13,7 @@ export const Header = () => {
   return (
     <div className={style.container}>
       <Navbar
-        expand='lg'
+        expand='md'
         variant='light'
         bg='light'
         className='bg-white py-4 border-bottom border-dark'
@@ -36,7 +36,7 @@ export const Header = () => {
             </h1>
           </Col>
           <Col className='d-flex align-items-center justify-content-center'>
-            <p className='m-0'>Frontend разработчик</p>
+            <p className='m-0 text-center'>Frontend разработчик</p>
           </Col>
           <Col className='d-flex justify-content-end'>
             <Image src={avatar} fluid roundedCircle className='w-75' />
